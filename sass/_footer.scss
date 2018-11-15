@@ -1,0 +1,36 @@
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: black;
+    @media (max-width: 1000px) {
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    
+    @media (max-width: 375px){
+        font-size: 13px;
+    }
+    
+    h3 {
+        color: white;
+    }
+    
+    ul {
+        width: 30%;
+        float: left;
+        @media (max-width: 540px) {
+            width: 27%;
+        }
+        
+        li {
+            list-style-type: none;
+            padding: 5px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #787878;
+        }
+    }
+}

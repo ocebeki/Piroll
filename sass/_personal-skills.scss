@@ -1,0 +1,86 @@
+.personal-skills {
+    display: flex;
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
+
+    &__left {
+        width: 50%;
+        padding: 90px 90px;
+        @media (max-width: 1024px) {
+            width: 100%;
+            float: none;
+        }
+
+        @media (max-width: 1024px) {
+            padding: 50px 25px;
+        }
+    }
+
+    &__right {
+        width: 50%;
+        float: left;
+        background: url(../img/sideImg.jpg);
+        background-size: cover;
+
+        @media (max-width: 1024px) {
+            height: 400px;
+            width: 100%;
+            float: none;
+        }
+    }
+
+    &__box {
+        padding: 22px 0;
+
+        &:nth-child(1) {
+            .personal-skills__line-left {
+                width: 75%;
+            }
+
+            .personal-skills__line-right {
+                width: 25%;
+            }
+        }
+
+        &:nth-child(2) {
+            .personal-skills__line-left {
+                width: 90%;
+            }
+
+            .personal-skills__line-right {
+                width: 10%;
+            }
+        }
+
+        &:nth-child(3) {
+            .personal-skills__line-left {
+                width: 65%;
+            }
+
+            .personal-skills__line-right {
+                width: 35%;
+            }
+        }
+    }
+
+    &__line {
+        width: 100%;
+        height: 5px;
+    }
+
+    &__line-left {
+        height: 5px;
+        width: 50%;
+        float: left;
+        background-color: #10c9c3;
+    }
+
+    &__line-right {
+        height: 5px;
+        width: 50%;
+        float: right;
+        background: #e9e9e9;
+    }
+}

@@ -1,0 +1,68 @@
+        .need-project {
+            padding: 100px 350px;
+            text-align: center;
+            overflow: hidden;
+            @media (max-width: 1140px) {
+                padding: 0 20px;
+            }
+            
+            input {
+                height: 48px;
+                border: none;
+                margin-bottom: 30px;
+                padding-left: 15px;
+                &:focus {
+                    outline: none;
+                }
+                
+                &:nth-child(1) {
+                    margin-right: 30px;
+                    width: 46%;
+                    float: left;
+                    @media (max-width: 540px) {
+                        margin-right: 0;
+                    }
+                    
+                    @media (max-width: 560px) {
+                        width: 100%
+                    }
+                }
+                
+                &:nth-child(2) {
+                    width: 47%;
+                    float: right;
+                    @media (max-width: 560px) {
+                        width: 100%
+                    }
+                }
+                
+                &:nth-child(3) {
+                    width: 100%;
+                }
+            }
+            textarea {
+                height: 170px;
+                border: none;
+                resize: none;
+                width: 100%;
+                padding: 15px;
+                &:focus {
+                    outline: none;
+                }
+            }
+            
+            ::placeholder {
+                font-family: 'Montserrat', sans-serif;
+            }
+            
+            button {
+                padding: 23px 36px;
+                border: none;
+                margin-top: 31px;
+                color: white;
+                cursor: pointer;
+                @media (max-width: 1140px) {
+                    margin-bottom: 20px;
+                }
+            }
+        }

@@ -1,0 +1,21 @@
+.about-us {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    padding: 100px 300px;
+    @media (max-width: 1024px) {
+        padding: 0;
+    }
+    
+    &__text {
+        padding: 0px 113px;
+        @media (max-width: 539px) {
+            padding: 0 10px;
+        }
+        
+        p {
+            padding: 40px 0;
+        }
+        
+    }
+}

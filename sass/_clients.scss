@@ -1,0 +1,23 @@
+        .clients {
+            @extend .cf;
+            text-align: center;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            
+            &__box {
+                text-align: center;
+                padding: 0 1.668%;
+                width: 20%;
+                float: left;
+                &:nth-child(3) {
+                    @media (max-width: 670px) {
+                        width: 100%;
+                    }
+                }
+                
+                @media (max-width: 670px) {
+                    width: 50%;
+                    float: left;
+                }
+            }
+        }

@@ -1,0 +1,67 @@
+.achievements {
+    padding-bottom: 45px;
+    padding-top: 45px;
+    margin: auto;
+    @media (max-width: 1024px) {
+        padding: 30px;
+        padding-left: 120px;
+    }
+    
+    @media (max-width: 750px) {
+        padding-left: 66px;
+    }
+    
+    @media (max-width: 540px) {
+        padding-left: 26px;
+        margin-bottom: 20px
+    }
+    
+    @media (max-width: 440px) {
+        padding: 0;
+    }
+            
+    
+    &__box {
+        @extend .cf;
+        color: white;
+        float: left;
+        width: 25%;
+        @media (max-width: 1024px) {
+            width: 50%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 520px) {
+            width: 70%;
+            margin: 5% 15%;
+        }
+    }
+    
+    &__icon {
+        width: 18%;
+        float: left;
+    }
+    
+    &__text {
+        font-family: 'Montserrat', sans-serif;
+        float: left;
+        width: 75%;
+        margin-left: 7%;
+    }
+    
+    h4 {
+        margin: 0;
+        margin-bottom: 3px;
+    }
+    
+    p {
+        margin: 0;
+        font-size: 13px;
+    }
+    .container {
+        @media (max-width: 1024px) {
+            width: 100%;
+        }
+    }
+}
