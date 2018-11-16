@@ -664,8 +664,8 @@ p {
 
 .header {
   font-family: "Montserrat", sans-serif;
-  background-image: url(../img/Webp.net-resizeimage.jpg);
-  background-size: 100% 100%;
+  background: url(../img/header1.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   padding-top: 100px;
   padding-bottom: 105px;
@@ -703,7 +703,6 @@ p {
     width: 100%;
     float: none;
     text-align: center;
-    margin-top: 215px;
   }
 }
 @media (max-width: 539px) {
